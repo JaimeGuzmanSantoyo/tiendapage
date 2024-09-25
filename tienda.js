@@ -142,13 +142,14 @@ alert("el boxer se ha agregado correctamente");
 }
 function ver_listadeproductos(){
     ropa.forEach((ropa, index) => {
-        console.log(`ropa-------(${index + 1}) - color------ ${ropa.color}`);
+        alert(`ropa-------(${index + 1}) - color------ ${ropa.color}`);
     });
 }
 function sumas(){
     let total = suma.reduce((acumulador, valorActual) => acumulador + valorActual, 0);
 console.log(suma);
 console.log("precio total------"+total); 
+alert("este es el total de la suma--------"+total)
 }
 
 function iniciarptograma(){
